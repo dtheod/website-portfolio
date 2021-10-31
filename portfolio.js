@@ -104,7 +104,7 @@ export const experience = [
 	{
 		role: "Data Science Consultant",
 		company: "Nextech",
-		companylogo: "/img/icons/common/image2vector-3.svg",
+		companylogo: "/github.svg",
 		date: "April 2017 – April 2018"
 	},
 	{
