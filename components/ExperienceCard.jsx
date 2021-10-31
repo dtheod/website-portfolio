@@ -39,7 +39,7 @@ const ExperienceCard = ({ data }) => {
 								src={data.companylogo}
 								width={"100px"}
 								height={"100px"}
-								alt={data.companylogo}
+								priority
 							/>
 						</div>
 						<CardTitle tag="h5">{data.role}</CardTitle>
