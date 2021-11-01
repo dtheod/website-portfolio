@@ -23,9 +23,9 @@ const ExperienceCard = ({ data }) => {
 					style={{ flex: 1 }}
 					className="shadow-lg--hover shadow border-0 text-center rounded"
 				>
-					<Color src={data.companylogo} format="hex">
+					<Color src={data.image_extra} format="hex">
 						{(color) => (
-							<CardHeader style={{ background: color.data }}>
+							<CardHeader style={{ background: color.data}}>
 								<h5 className="text-white">{data.company}</h5>
 							</CardHeader>
 						)}
@@ -36,9 +36,11 @@ const ExperienceCard = ({ data }) => {
 							style={{ width: "100px", height: "100px" }}
 						>
 							<Image
+								alt = {data.companylogo}
 								src={data.companylogo}
 								width={"100px"}
 								height={"100px"}
+								layout = "responsive"
 							/>
 						</div>
 						<CardTitle tag="h5">{data.role}</CardTitle>

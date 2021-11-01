@@ -92,31 +92,36 @@ export const experience = [
 	{
 		role: "Senior Data Scientist",
 		company: "KPMG Cyprus",
-		companylogo: "/img/icons/common/kpmg-logo-vector1.png",
+		companylogo: "https://website-portfolio-images.s3.eu-west-2.amazonaws.com/kpmg-logo-vector1.png",
+		image_extra: "/img/icons/common/kpmg-logo-vector1.png",
 		date: "November 2018 – October 2021"
 	},
 	{
 		role: "Data Science Contractor",
 		company: "Innoids Consulting Ltd",
-		companylogo: "/img/icons/common/innoids.png",
+		companylogo:"https://website-portfolio-images.s3.eu-west-2.amazonaws.com/innoids.png",
+		image_extra: "/img/icons/common/innoids.png",
 		date: "April 2018 – October 2018"
 	},
 	{
 		role: "Data Science Consultant",
 		company: "Nextech",
-		companylogo: "/github.svg",
+		companylogo: "https://website-portfolio-images.s3.eu-west-2.amazonaws.com/image2vector-3.svg",
+		image_extra: "/img/icons/common/cropped-nextech.png",
 		date: "April 2017 – April 2018"
 	},
 	{
 		role: "Data Scientist",
 		company: "Sainsburys",
-		companylogo: "/img/icons/common/sainsburys-logo.png",
+		companylogo: "https://website-portfolio-images.s3.eu-west-2.amazonaws.com/sainsburys-logo.png",
+		image_extra:"/img/icons/common/sainsburys-logo.png",
 		date: "November 2015 – April 2017"
 	},
 	{
 		role: "Data Science Intern",
 		company: "Profusion",
-		companylogo: "/github.svg",
+		companylogo: "https://website-portfolio-images.s3.eu-west-2.amazonaws.com/profusion_pic.jpeg",
+		image_extra:"/img/icons/common/profusion_pic.jpeg",
 		date: "June 2015 – November 2015"
 	}
 ];
