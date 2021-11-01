@@ -106,14 +106,14 @@ export const experience = [
 	{
 		role: "Data Science Consultant",
 		company: "Nextech",
-		companylogo: "https://website-portfolio-images.s3.eu-west-2.amazonaws.com/image2vector-3.svg",
-		image_extra: "/img/icons/common/cropped-nextech.png",
+		companylogo: "/img/icons/common/sinopsis.jpeg",
+		image_extra: "/img/icons/common/sinopsis_logo.png",
 		date: "April 2017 – April 2018"
 	},
 	{
 		role: "Data Scientist",
 		company: "Sainsburys",
-		companylogo: "https://website-portfolio-images.s3.eu-west-2.amazonaws.com/sainsburys-logo.png",
+		companylogo: "/img/icons/common/sains.jpeg",
 		image_extra:"/img/icons/common/sainsburys-logo.png",
 		date: "November 2015 – April 2017"
 	},
