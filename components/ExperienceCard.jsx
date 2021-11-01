@@ -35,7 +35,7 @@ const ExperienceCard = ({ data }) => {
 							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
 							style={{ width: "100px", height: "100px" }}
 						>
-							<Image
+							<img
 								alt = {data.companylogo}
 								src={data.companylogo}
 								width={"100px"}
