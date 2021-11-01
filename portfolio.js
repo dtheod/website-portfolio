@@ -120,7 +120,7 @@ export const experience = [
 	{
 		role: "Data Science Intern",
 		company: "Profusion",
-		companylogo: "https://website-portfolio-images.s3.eu-west-2.amazonaws.com/profusion_pic.jpeg",
+		companylogo: "/img/icons/common/profusion_pic.jpeg",
 		image_extra:"/img/icons/common/profusion_pic.jpeg",
 		date: "June 2015 – November 2015"
 	}

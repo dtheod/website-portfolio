@@ -31,16 +31,12 @@ const ExperienceCard = ({ data }) => {
 						)}
 					</Color>
 					<CardBody className="py-5">
-						<div
-							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
-							style={{ width: "100px", height: "100px" }}
-						>
+						<div>
 							<img
-								alt = {data.companylogo}
 								src={data.companylogo}
 								width={"100px"}
 								height={"100px"}
-								layout = "responsive"
+								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
 							/>
 						</div>
 						<CardTitle tag="h5">{data.role}</CardTitle>
