@@ -116,7 +116,7 @@ export const experience = [
 	{
 		role: "Data Science Intern",
 		company: "Profusion",
-		companylogo: "/img/icons/common/profusion_pic.jpeg",
+		companylogo: "/github.svg",
 		date: "June 2015 – November 2015"
 	}
 ];

@@ -1,6 +1,6 @@
 module.exports = {
 	reactStrictMode: false,
 	images: {
-		domains: ["avatars.githubusercontent.com"],
+		domains: ["website-portfolio-images.s3.eu-west-2.amazonaws.com"]
 	}
 };
