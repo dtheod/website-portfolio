@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Data Scientist",
 	description:
 		"A highly motivated professional with more than 5 years of Data Science experience in developing a wide range of innovative data-driven applications like fraud detection, sentiment analysis, customer segmentation and time series forecasting. Ability to use statistics and machine learning to uncover complex relationships in data and communicate insights to non-technical audiences.",
-	resumeLink: "https://docs.google.com/document/d/1q6FzcON1aaWDxv7ZTiiddSggbvagK5ZaTsykA-wF6pA/edit?usp=sharing",
+	resumeLink: "https://drive.google.com/file/d/1G2ayQGRcSFXulqaiBf1zjrrIM69PxMxF/view?usp=sharing",
 };
 
 export const openSource = {
@@ -15,7 +15,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
+	facebook: "https://www.facebook.com/danis.theodoulou/",
 	github: "https://github.com/dtheod",
 	linkedin: "https://www.linkedin.com/in/dtheodoulou/",
 };
@@ -92,20 +92,20 @@ export const experience = [
 	{
 		role: "Senior Data Scientist",
 		company: "KPMG Cyprus",
-		companylogo: "https://website-portfolio-images.s3.eu-west-2.amazonaws.com/kpmg-logo-vector1.png",
+		companylogo: "/img/icons/common/kpmg-logo-vector1.png",
 		image_extra: "/img/icons/common/kpmg-logo-vector1.png",
 		date: "November 2018 – October 2021"
 	},
 	{
 		role: "Data Science Contractor",
 		company: "Innoids Consulting Ltd",
-		companylogo:"https://website-portfolio-images.s3.eu-west-2.amazonaws.com/innoids.png",
+		companylogo:"/img/icons/common/innoids.png",
 		image_extra: "/img/icons/common/innoids.png",
 		date: "April 2018 – October 2018"
 	},
 	{
 		role: "Data Science Consultant",
-		company: "Nextech",
+		company: "Sinopsis",
 		companylogo: "/img/icons/common/sinopsis.jpeg",
 		image_extra: "/img/icons/common/sinopsis_logo.png",
 		date: "April 2017 – April 2018"
@@ -134,20 +134,20 @@ export const projects = [
 	},
 	{
 		name: "Natural Language Processing Sarcasm Detection",
-		desc: "Using data from",
-		github: "https://github.com/1hanzla100",
+		desc: "Using data from Reddit we apply state of the art NLP algorithms(transformers) to predict sarcasm comments.",
+		github: "https://github.com/dtheod/Sarcasm-Text-Classification",
 	},
 	{
 		name: "Campaign Optimisation App",
 		desc: "",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		github: "https://github.com/dtheod",
+		link: "https://github.com/dtheod",
 	},
 	{
 		name: "Time series Forecasting - Stock Prediction",
 		desc: "",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		github: "https://github.com/dtheod",
+		link: "https://github.com/dtheod",
 	}
 ];
 
