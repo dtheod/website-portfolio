@@ -18,7 +18,7 @@ import {
 
 const Navigation = () => {
 	const [collapseClasses, setCollapseClasses] = useState("");
-	const onExiting = () => setCollapseClasses("collapsing-out");
+	const onExiting = () => setCollapseClasses("");
 
 	const onExited = () => setCollapseClasses("");
 
@@ -60,7 +60,7 @@ const Navigation = () => {
 								<Row>
 									<Col className="collapse-brand" xs="6">
 										<h3
-											className="text-black"
+											className="text-white"
 											id="nav-title"
 										>
 											{greetings.name}

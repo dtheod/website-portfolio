@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Danis Theodoulou",
 	title: "Data Scientist",
 	description:
-		"A highly motivated professional with more than 5 years of Data Science experience in developing a wide range of innovative data-driven applications like fraud detection, sentiment analysis, customer segmentation and time series forecasting. Ability to use statistics and machine learning to uncover complex relationships in data and communicate insights to non-technical audiences.",
+		"A highly motivated professional with more than 5 years of Data Science experience in developing a wide range of innovative data-driven applications. Ability to use statistics and machine learning to uncover complex relationships in data and communicate insights to non-technical audiences.",
 	resumeLink: "https://drive.google.com/file/d/1G2ayQGRcSFXulqaiBf1zjrrIM69PxMxF/view?usp=sharing",
 };
 
@@ -84,6 +84,10 @@ export const skillsSection = {
 		{
 			skillName: "docker",
 			fontAwesomeClassname: "logos:docker-icon",
+		},
+		{
+			skillName: "Github",
+			fontAwesomeClassname: "logos:github",
 		},
 	],
 };

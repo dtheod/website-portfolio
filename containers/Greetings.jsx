@@ -6,7 +6,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
 
-const Greetings = () => {
+const Greetings = ({prof}) => {
 	useEffect(() => {
 		document.documentElement.scrollTop = 0;
 		document.scrollingElement.scrollTop = 0;
@@ -14,7 +14,7 @@ const Greetings = () => {
 	return (
 		<main>
 			<div className="position-relative">
-				<section className="section section-lg section-shaped pb-250">
+				<section className="section section-lg section-shaped pb-350">
 					<div className="shape shape-style-1 bg-gradient-info">
 						<span />
 						<span />
@@ -22,14 +22,31 @@ const Greetings = () => {
 						<span />
 						<span />
 						<span />
-						<span />
-						<span />
-						<span />
 					</div>
+					<Container className="">
+				<div className="p-2">
+					<Row className="">
+                        <Col className="order-lg-4" lg = "4">
+                        </Col>
+						<Col className="order-lg-4" lg="4">
+							<img
+								src={prof.avatar_url}
+								style={{ width: "200px" }}
+								alt=""
+								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
+							/>
+						</Col>
+						<Col lg="4" className="order-lg-4">
+						</Col>
+					</Row>
+				</div>
+			</Container>
 					<Container className="py-lg-md d-flex">
 						<div className="col px-0">
+							
 							<Row>
-								<Col lg="6">
+								
+								<Col lg="5">
 									<h1 className="display-3 text-white">
 										{greetings.title + " "}
 									</h1>
@@ -47,12 +64,12 @@ const Greetings = () => {
 												<i className="fa fa-file" />
 											</span>
 											<span className="btn-inner--text">
-												See My Resume
+												See My CV
 											</span>
 										</Button>
 									</div>
 								</Col>
-								<Col lg="6">
+								<Col lg="7">
 									<GreetingLottie animationPath="/lottie/coding.json" />
 								</Col>
 							</Row>

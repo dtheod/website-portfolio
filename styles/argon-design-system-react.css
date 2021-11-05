@@ -25,6 +25,9 @@
 	text-transform: capitalize;
 }
 
+.headertekst{
+	text-align: center;
+  }
 :root {
 	--blue: #5e72e4;
 	--indigo: #5603ad;
@@ -611,9 +614,9 @@ pre code {
 	margin-right: auto;
 	margin-left: auto;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 	.container {
-		max-width: 540px;
+		max-width: 720px;
 	}
 }
 @media (min-width: 768px) {
@@ -4762,6 +4765,7 @@ input[type="button"].btn-block {
 .card-body {
 	flex: 1 1 auto;
 	padding: 1.5rem;
+	
 }
 
 .card-title {
@@ -16821,6 +16825,7 @@ textarea[resize="horizontal"] {
 
 .icon-shape {
 	padding: 12px;
+	margin-right:5px;
 	text-align: center;
 	display: inline-flex;
 	align-items: center;
