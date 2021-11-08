@@ -11,6 +11,7 @@ const Projects = dynamic(() => import("../containers/Projects"));
 const GithubProfileCard = dynamic(() =>
 	import("../components/GithubProfileCard")
 );
+
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 
@@ -38,7 +39,7 @@ export default function Home({ githubProfileData }) {
 				}}
 			/>
 			<Navigation />
-			<Greetings />
+			<Greetings prof={githubProfileData}/>
 			<Skills />
 			<Experience />
 			<Projects />
