@@ -135,6 +135,12 @@ export const projects = [
 		name: "Computer Vision - Dog Breeds Classfication",
 		desc: "Using Transfer Learning and CNN(Keras and Tensorflow and ImageNet) we classify dog breeds using 120 known classes.",
 		github: "https://github.com/dtheod/ComputerVision_Classification",
+		softwareSkills: [
+			{
+				skillName: "Tableau",
+				fontAwesomeClassname: "logos:tableau",
+			}
+		]
 	},
 	{
 		name: "Natural Language Processing Sarcasm Detection",
@@ -144,8 +150,8 @@ export const projects = [
 	{
 		name: "Campaign Optimisation App",
 		desc: "",
-		github: "https://github.com/dtheod",
-		link: "https://github.com/dtheod",
+		github: "https://github.com/dtheod/Campaign-Optimisation-App",
+		link: "https://innoids.shinyapps.io/Campaign-Optimisation-App/",
 	},
 	{
 		name: "Time series Forecasting - Stock Prediction",
