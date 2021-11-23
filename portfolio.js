@@ -89,6 +89,10 @@ export const skillsSection = {
 			skillName: "Github",
 			fontAwesomeClassname: "logos:github",
 		},
+		{
+			skillName: "airflow",
+			fontAwesomeClassname: "logos:airflow",
+		},
 	],
 };
 
