@@ -11,15 +11,7 @@ const GithubProfileCard = ({ prof }) => {
 			<Container className="">
 				<div className="p-2">
 					<Row className="">
-						<Col className="order-lg-2" lg="4">
-							<img
-								src={prof.avatar_url}
-								style={{ width: "200px" }}
-								alt=""
-								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
-							/>
-						</Col>
-						<Col lg="8" className="order-lg-1">
+						<Col lg="12" className="order-lg-1">
 							<h2 className="text-white">Reach Out to me!</h2>
 							<p className="lead text-white mt-3">
 								DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY

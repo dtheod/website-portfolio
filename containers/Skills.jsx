@@ -22,7 +22,9 @@ const Skills = () => {
 				</Col>
 				</Row>
 				<Row>
-					<Col lg="12">
+					<Col lg = "2">
+					</Col>
+					<Col lg="8">
 						<div className="d-flex justify-content-center flex-wrap mb-5">
 							{skillsSection.softwareSkills.map((skill) => {
 								return (
@@ -55,6 +57,8 @@ const Skills = () => {
 								return <p key={skill}>{skill}</p>;
 							})}
 						</div>
+					</Col>
+					<Col lg = "2">
 					</Col>
 				</Row>
 			</Container>

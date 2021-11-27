@@ -20,6 +20,31 @@ export const socialLinks = {
 	linkedin: "https://www.linkedin.com/in/dtheodoulou/",
 };
 
+export const SkillBars = [
+	{
+		Stack: "Machine Learning", //Insert stack or technology you have experience in
+		progressPercentage: "90", //Insert relative proficiency in percentage
+	},
+	{
+		Stack: "Data Wrangling",
+		progressPercentage: "90",
+	},
+	{
+		Stack: "Frontend/Design",
+		progressPercentage: "70",
+	},
+	{
+		Stack: "Deep Learning",
+		progressPercentage: "60",
+	},
+	{
+		Stack: "Management Consulting",
+		progressPercentage: "60",
+	},
+
+];
+
+
 export const skillsSection = {
 	title: "Technology Stack",
 	subTitle:
