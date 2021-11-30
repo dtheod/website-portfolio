@@ -64,7 +64,7 @@ export const skillsSection = {
 	softwareSkills: [
 		{
 			skillName: "Tableau",
-			fontAwesomeClassname: "logos:tableau",
+			fontAwesomeClassname: "logos:tableau-icon",
 		},
 		{
 			skillName: "PyTorch",
@@ -96,7 +96,7 @@ export const skillsSection = {
 		},
 		{
 			skillName: "azure",
-			fontAwesomeClassname: "logos:azure",
+			fontAwesomeClassname: "logos:azure-icon",
 		},
 		{
 			skillName: "python",
@@ -112,7 +112,7 @@ export const skillsSection = {
 		},
 		{
 			skillName: "Github",
-			fontAwesomeClassname: "logos:github",
+			fontAwesomeClassname: "logos:github-icon",
 		},
 		{
 			skillName: "airflow",
