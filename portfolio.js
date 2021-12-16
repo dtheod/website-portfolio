@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Data Scientist",
 	description:
 		"A highly motivated professional with more than 5 years of Data Science experience in developing a wide range of innovative data-driven applications. Ability to use statistics and machine learning to uncover complex relationships in data and communicate insights to non-technical audiences.",
-	resumeLink: "https://drive.google.com/file/d/1XJhJ_Q8we49MBXGC2NjNeTFqIsm_nK3T/view?usp=sharing",
+	resumeLink: "https://drive.google.com/file/d/1J0QUuYKI84LoDvHLDbbdKq9dumNE4dkg/view?usp=sharing",
 };
 
 export const openSource = {
@@ -22,11 +22,11 @@ export const socialLinks = {
 
 export const SkillBars = [
 	{
-		Stack: "Machine Learning", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Machine Learning", 
+		progressPercentage: "90",
 	},
 	{
-		Stack: "Data Wrangling",
+		Stack: "Data Analysis",
 		progressPercentage: "90",
 	},
 	{
@@ -51,13 +51,13 @@ export const skillsSection = {
 		"Some of the technologies used in commercial and personal projects",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your Web Applications using R Shiny and Tableau."
-		),
-		emoji(
-			"⚡ Develop Machine Learning solutions to answer your specific business questions."
+			"⚡ Develop Machine Learning solutions."
 		),
 		emoji(
 			"⚡ SME in different industries such as Retail and Financial Services"
+		),
+		emoji(
+			"⚡ Develop highly interactive Web Applications using R Shiny and Tableau."
 		),
 	],
 
@@ -161,7 +161,7 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "Computer Vision - Dog Breeds Classfication",
+		name: "Computer Vision - Dog Breeds Classification",
 		desc: "Using Transfer Learning and CNN(Keras and Tensorflow and ImageNet) we classify dog breeds using 120 known classes.",
 		github: "https://github.com/dtheod/ComputerVision_Classification",
 		softwareSkills: [
@@ -189,18 +189,3 @@ export const projects = [
 		link: "https://github.com/dtheod",
 	}
 ];
-
-/*
-export const feedbacks = [
-	{
-		name: "Hassan Mehmood",
-		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
-	},
-	{
-		name: "Maheen Altaf",
-		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
-	},
-];
-*/
