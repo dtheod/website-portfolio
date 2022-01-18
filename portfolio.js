@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Data Scientist",
 	description:
 		"A highly motivated professional with more than 5 years of Data Science experience in developing a wide range of innovative data-driven applications. Ability to use statistics and machine learning to uncover complex relationships in data and communicate insights to non-technical audiences.",
-	resumeLink: "https://drive.google.com/file/d/1J0QUuYKI84LoDvHLDbbdKq9dumNE4dkg/view?usp=sharing",
+	resumeLink: "https://drive.google.com/file/d/1K4q7MtGhQC1eMtIid6cmOq1nGVNw06xp/view?usp=sharing",
 };
 
 export const openSource = {
