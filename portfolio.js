@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Danis Theodoulou",
-	title: "Data Scientist",
+	title: "Senior Data Scientist",
 	description:
 		"Senior Data Scientist with 9 years of experience in delivering data-driven solutions and leveraging advanced analytics to drive business growth. Skilled in end-to-end development, deployment of machine learning models.",
 	resumeLink: "https://drive.google.com/file/d/1K4q7MtGhQC1eMtIid6cmOq1nGVNw06xp/view?usp=sharing",
