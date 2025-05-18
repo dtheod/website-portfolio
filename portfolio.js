@@ -1,4 +1,3 @@
-import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Danis Theodoulou",
@@ -22,6 +21,10 @@ export const socialLinks = {
 
 export const SkillBars = [
 	{
+		Stack: "Agentic AI", 
+		progressPercentage: "90",
+	},
+	{
 		Stack: "Machine Learning", 
 		progressPercentage: "90",
 	},
@@ -30,7 +33,7 @@ export const SkillBars = [
 		progressPercentage: "90",
 	},
 	{
-		Stack: "Frontend/Design",
+		Stack: "R Shiny",
 		progressPercentage: "70",
 	},
 	{
@@ -50,18 +53,16 @@ export const skillsSection = {
 	subTitle:
 		"Some of the technologies used in commercial and personal projects",
 	skills: [
-		emoji(
-			"⚡ Develop Machine Learning solutions."
-		),
-		emoji(
-			"⚡ SME in different industries such as Retail and Financial Services"
-		),
-		emoji(
+			"⚡ Develop Machine Learning solutions.",
+			"⚡ SME in different industries such as Retail and Financial Services",
 			"⚡ Develop highly interactive Web Applications using R Shiny and Tableau."
-		),
 	],
 
 	softwareSkills: [
+		{
+			skillName: "FastAPI",
+			fontAwesomeClassname: "logos:fastapi",
+		},
 		{
 			skillName: "Tableau",
 			fontAwesomeClassname: "logos:tableau-icon",
@@ -118,10 +119,32 @@ export const skillsSection = {
 			skillName: "airflow",
 			fontAwesomeClassname: "logos:airflow",
 		},
+		{
+			skillName: "circleci",
+			fontAwesomeClassname: "logos:circleci",
+		},
+		{
+			skillName: "Jira",
+			fontAwesomeClassname: "logos:jira"
+		}
 	],
 };
 
 export const experience = [
+	{
+		role: "Senior Data Scientist Contractor",
+		company: "Testlio",
+		companylogo: "/img/icons/common/testlio_logo.png",
+		image_extra: "/img/icons/common/testlio_logo.png",
+		date: "Jul 2022 – Present"
+	},
+	{
+		role: "Senior Data Scientist Contractor",
+		company: "The ICS Labs",
+		companylogo: "/img/icons/common/ics.jpeg",
+		image_extra: "/img/icons/common/ics.jpeg",
+		date: "March 2022 – August 2022"
+	},
 	{
 		role: "Senior Data Scientist",
 		company: "KPMG Cyprus",
